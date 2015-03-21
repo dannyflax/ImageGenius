@@ -14,6 +14,7 @@
 		EFEC295E1ABC7EA000108EF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEC295D1ABC7EA000108EF4 /* Images.xcassets */; };
 		EFEC29611ABC7EA000108EF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFEC295F1ABC7EA000108EF4 /* LaunchScreen.xib */; };
 		EFEC296D1ABC7EA000108EF4 /* ImageGeniusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEC296C1ABC7EA000108EF4 /* ImageGeniusTests.m */; };
+		EFEC297A1ABC809700108EF4 /* Blistex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFEC29791ABC809700108EF4 /* Blistex.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		EFEC29661ABC7EA000108EF4 /* ImageGeniusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageGeniusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEC296B1ABC7EA000108EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFEC296C1ABC7EA000108EF4 /* ImageGeniusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGeniusTests.m; sourceTree = "<group>"; };
+		EFEC29791ABC809700108EF4 /* Blistex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blistex.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		EFEC294F1ABC7EA000108EF4 /* ImageGenius */ = {
 			isa = PBXGroup;
 			children = (
+				EFEC29781ABC808900108EF4 /* TestImages */,
 				EFEC29541ABC7EA000108EF4 /* AppDelegate.h */,
 				EFEC29551ABC7EA000108EF4 /* AppDelegate.m */,
 				EFEC29571ABC7EA000108EF4 /* ViewController.h */,
@@ -117,6 +120,14 @@
 				EFEC296B1ABC7EA000108EF4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFEC29781ABC808900108EF4 /* TestImages */ = {
+			isa = PBXGroup;
+			children = (
+				EFEC29791ABC809700108EF4 /* Blistex.jpg */,
+			);
+			name = TestImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFEC295C1ABC7EA000108EF4 /* Main.storyboard in Resources */,
+				EFEC297A1ABC809700108EF4 /* Blistex.jpg in Resources */,
 				EFEC29611ABC7EA000108EF4 /* LaunchScreen.xib in Resources */,
 				EFEC295E1ABC7EA000108EF4 /* Images.xcassets in Resources */,
 			);

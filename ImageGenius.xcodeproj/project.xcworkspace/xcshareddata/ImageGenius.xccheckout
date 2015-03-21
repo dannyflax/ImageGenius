@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2998D14E-ECAB-4998-8AE2-A9FA043F8965</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ImageGenius</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8D06E1CC67DF715107CBEE9E37EFB93567A417E2</key>
+		<string>https://github.com/dannyflax/ImageGenius.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ImageGenius.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8D06E1CC67DF715107CBEE9E37EFB93567A417E2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dannyflax/ImageGenius.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8D06E1CC67DF715107CBEE9E37EFB93567A417E2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8D06E1CC67DF715107CBEE9E37EFB93567A417E2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ImageGenius</string>
+		</dict>
+	</array>
+</dict>
+</plist>
