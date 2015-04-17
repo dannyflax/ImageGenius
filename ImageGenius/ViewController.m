@@ -27,6 +27,7 @@ typedef struct color {
     [super viewDidLoad];
     
     float viewWidth = self.view.frame.size.width;
+    float viewHeight = self.view.frame.size.height;
     
     self.view.multipleTouchEnabled = true;
     
@@ -81,8 +82,6 @@ typedef struct color {
     [cButton setTitle:@"Calculate Cells" forState:UIControlStateNormal];
     [cButton addTarget:self action:@selector(calculate:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:cButton];
-    
-   
 }
 
 -(IBAction)calculate:(id)sender{
@@ -107,11 +106,7 @@ typedef struct color {
     }
     else{
         [calcLbl setText:[NSString stringWithFormat:@"%i cells", (int)tot]];
-    }
-    
-    
-    
-    
+    }   
 }
 
 -(IBAction)sliderChanged:(id)sender{
@@ -339,7 +334,6 @@ typedef struct color {
     
     return c->hue;
 }
-
 
 #pragma mark - Touch Methods
 
