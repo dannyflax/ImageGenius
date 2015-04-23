@@ -2,11 +2,11 @@
 //  ViewController.m
 //  ImageGenius
 //
-//  Created by Danny Flax on 3/20/15.
-//  Copyright (c) 2015 Danny Flax. All rights reserved.
-//
+//  Created by Danny Flax and Qinwan Rabbani on 3/20/15.
+//  Copyright (c) 2015 Danny Flax and Qinwan Rabbani. All rights reserved.
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -37,16 +37,19 @@ typedef struct color {
     flips = false;
     threshold = .34;
     
+    UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Background.png"]];
+    [self.view addSubview:backgroundView];
+    
     float w = 320;
     float h = 320;
     imgView = [[UIImageView alloc] initWithFrame:CGRectMake((viewWidth - w)/2.0, 30.0, w, h)];
     
-    [imgView setBackgroundColor:[UIColor purpleColor]];
-    [imgView.layer setBorderColor:[UIColor purpleColor].CGColor];
-    [imgView.layer setBorderWidth:1.0];
+    [imgView setBackgroundColor:[UIColor colorWithRed:(215.0/255.0) green: (193.0/255.0) blue:(10.0/255.0) alpha:(1.0)]];
+    [imgView.layer setBorderColor:[UIColor colorWithRed:(108.0/255.0) green: (97.0/255.0) blue:(5.0/255.0) alpha:(1.0)].CGColor];
+    [imgView.layer setBorderWidth:3.0];
     
     [imgView setContentMode:UIViewContentModeScaleAspectFit];
-    originalImage = [UIImage imageNamed:@"Point 2 - 23cm.jpg"];
+    originalImage = [UIImage imageNamed:@"23cm salt 1~01.jpg"];
     
     myImg = [UIImage imageWithCGImage:originalImage.CGImage];
     [self loadImgData];
@@ -56,13 +59,21 @@ typedef struct color {
     [self.view addSubview:imgView];
     
     
-    calcLbl = [[UILabel alloc] initWithFrame:CGRectMake(0.0, 380.0, self.view.frame.size.width, 15.0)];
+    calcLbl = [[UILabel alloc] initWithFrame:CGRectMake(0.0, 380.0, self.view.frame.size.width, 50.0)];
     [calcLbl setTextAlignment:NSTextAlignmentCenter];
+    [calcLbl setFont:[UIFont fontWithName:@"Thonburi-Bold" size: 30]];
+    calcLbl.textColor = [UIColor colorWithRed:(215.0/255.0) green: (193.0/255.0) blue:(10.0/255.0) alpha:(1.0)];
     [self.view addSubview:calcLbl];
     
-    self.slider = [[UISlider alloc] initWithFrame:CGRectMake(10.0, 420.0, self.view.frame.size.width - 20.0, 30.0)];
-    [self.slider addTarget:self action:@selector(sliderChanged:) forControlEvents:UIControlEventTouchUpInside];
+    calcLbl2 = [[UILabel alloc] initWithFrame:CGRectMake(0.0, 410.0, self.view.frame.size.width, 50.0)];
+    [calcLbl2 setTextAlignment:NSTextAlignmentCenter];
+    [calcLbl2 setFont:[UIFont fontWithName:@"Thonburi-Bold" size: 15]];
+    calcLbl2.textColor = [UIColor colorWithRed:(215.0/255.0) green: (193.0/255.0) blue:(10.0/255.0) alpha:(1.0)];
+    [self.view addSubview:calcLbl2];
     
+    self.slider = [[UISlider alloc] initWithFrame:CGRectMake(10.0, 360.0, self.view.frame.size.width - 20.0, 30.0)];
+    [self.slider addTarget:self action:@selector(sliderChanged:) forControlEvents:UIControlEventTouchUpInside];
+    [self.slider setThumbImage:[UIImage imageNamed:@"Slider.png"] forState:(UIControlStateNormal)];
     [self.view addSubview:self.slider];
     
     [self.slider setMinimumValue:0.0];
@@ -71,17 +82,37 @@ typedef struct color {
     [self.slider setValue:threshold animated:NO];
     
     
-    UIButton *fButton = [[UIButton alloc] initWithFrame:CGRectMake((viewWidth - 200.0)/2.0, 470.0, 200.0, 48.0)];
-    [fButton setBackgroundColor:[UIColor blackColor]];
-    [fButton setTitle:@"Invert Detection" forState:UIControlStateNormal];
+    UIButton *fButton = [[UIButton alloc] initWithFrame:CGRectMake((viewWidth - 328.0), (viewHeight-280.0), 240.0, 80.0)];
+    [fButton
+     setBackgroundImage:[UIImage imageNamed:@"Invert.png"]
+     forState:UIControlStateNormal];
     [fButton addTarget:self action:@selector(flip:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:fButton];
     
-    UIButton *cButton = [[UIButton alloc] initWithFrame:CGRectMake((viewWidth - 200.0)/2.0, 550.0, 200.0, 48.0)];
-    [cButton setBackgroundColor:[UIColor blackColor]];
-    [cButton setTitle:@"Calculate Cells" forState:UIControlStateNormal];
+    UIButton *cButton = [[UIButton alloc] initWithFrame:CGRectMake((viewWidth - 328.0), (viewHeight-175.0), 240.0, 80.0)];
+    [cButton
+     setBackgroundImage:[UIImage imageNamed:@"Calculate.png"]
+     forState:UIControlStateNormal];
     [cButton addTarget:self action:@selector(calculate:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:cButton];
+    
+    UIButton *hButton = [[UIButton alloc] initWithFrame:CGRectMake(15, 675.0, 50.0, 50.0)];
+    [hButton
+     setBackgroundImage:[UIImage imageNamed:@"Help.png"]
+     forState:UIControlStateNormal];
+    [hButton addTarget:self action:@selector(helpButton:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:hButton];
+    
+    UIButton *pButton = [[UIButton alloc] initWithFrame:CGRectMake((viewWidth-65), 675.0, 55.0, 55.0)];
+    [pButton
+     setBackgroundImage:[UIImage imageNamed:@"Cam.png"]
+     forState:UIControlStateNormal];
+    [pButton addTarget:self action:@selector(camButton:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:pButton];}
+
+-(void)helpButton:(id)sender {
+    ViewController *second = [[SecondViewController alloc] initWithNibName:nil bundle:nil];
+    [self presentViewController:second animated:YES completion:NULL];
 }
 
 -(IBAction)calculate:(id)sender{
@@ -102,8 +133,8 @@ typedef struct color {
         
         tot = (upper + main + lower)/3.0;
         
-        [calcLbl setText:[NSString stringWithFormat:@"Between %i and %i, about %i cells", (int)lower,(int)upper, (int)main]];
-    }
+        [calcLbl setText:[NSString stringWithFormat:@"%i Cells", (int)main]];
+        [calcLbl2 setText:[NSString stringWithFormat:@"(Max Range: %i - %i Cells)", (int)lower,(int)upper]];    }
     else{
         [calcLbl setText:[NSString stringWithFormat:@"%i cells", (int)tot]];
     }   
@@ -123,7 +154,7 @@ typedef struct color {
     [self filter];
     imgView.image = myImg;
     [calcLbl setText:@""];
-}
+    [calcLbl2 setText:@""];}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -336,7 +367,9 @@ typedef struct color {
 }
 
 #pragma mark - Touch Methods
-
+-(IBAction)camButton:(id)sender{
+    [self promptForPicture:UIImagePickerControllerSourceTypePhotoLibrary];
+}
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     UITouch *touch = [touches anyObject];
     if ([touch tapCount] == 2) {
