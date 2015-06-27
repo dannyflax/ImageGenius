@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EFEC294C1ABC7EA000108EF4"
-               BuildableName = "ImageGenius.app"
-               BlueprintName = "ImageGenius"
-               ReferencedContainer = "container:ImageGenius.xcodeproj">
+               BuildableName = "YeastCounter.app"
+               BlueprintName = "YeastCounter"
+               ReferencedContainer = "container:YeastCounter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EFEC29651ABC7EA000108EF4"
-               BuildableName = "ImageGeniusTests.xctest"
-               BlueprintName = "ImageGeniusTests"
-               ReferencedContainer = "container:ImageGenius.xcodeproj">
+               BuildableName = "YeastCounterTests.xctest"
+               BlueprintName = "YeastCounterTests"
+               ReferencedContainer = "container:YeastCounter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EFEC29651ABC7EA000108EF4"
-               BuildableName = "ImageGeniusTests.xctest"
-               BlueprintName = "ImageGeniusTests"
-               ReferencedContainer = "container:ImageGenius.xcodeproj">
+               BuildableName = "YeastCounterTests.xctest"
+               BlueprintName = "YeastCounterTests"
+               ReferencedContainer = "container:YeastCounter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EFEC294C1ABC7EA000108EF4"
-            BuildableName = "ImageGenius.app"
-            BlueprintName = "ImageGenius"
-            ReferencedContainer = "container:ImageGenius.xcodeproj">
+            BuildableName = "YeastCounter.app"
+            BlueprintName = "YeastCounter"
+            ReferencedContainer = "container:YeastCounter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EFEC294C1ABC7EA000108EF4"
-            BuildableName = "ImageGenius.app"
-            BlueprintName = "ImageGenius"
-            ReferencedContainer = "container:ImageGenius.xcodeproj">
+            BuildableName = "YeastCounter.app"
+            BlueprintName = "YeastCounter"
+            ReferencedContainer = "container:YeastCounter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EFEC294C1ABC7EA000108EF4"
-            BuildableName = "ImageGenius.app"
-            BlueprintName = "ImageGenius"
-            ReferencedContainer = "container:ImageGenius.xcodeproj">
+            BuildableName = "YeastCounter.app"
+            BlueprintName = "YeastCounter"
+            ReferencedContainer = "container:YeastCounter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
