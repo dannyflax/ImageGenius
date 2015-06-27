@@ -77,7 +77,7 @@
 		EFC735A01ACE1A4E005E513F /* Yeast_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yeast_5.jpg; sourceTree = "<group>"; };
 		EFC735A21ACE1C24005E513F /* Yeast_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yeast_6.jpg; sourceTree = "<group>"; };
 		EFC735A41ACE1D35005E513F /* Yeast_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yeast_7.jpg; sourceTree = "<group>"; };
-		EFEC294D1ABC7EA000108EF4 /* YeastCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeastCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEC294D1ABC7EA000108EF4 /* ImageGenius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGenius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEC29511ABC7EA000108EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFEC29521ABC7EA000108EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFEC29541ABC7EA000108EF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		EFEC295B1ABC7EA000108EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFEC295D1ABC7EA000108EF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EFEC29601ABC7EA000108EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EFEC29661ABC7EA000108EF4 /* YeastCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeastCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEC29661ABC7EA000108EF4 /* ImageGeniusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageGeniusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEC296B1ABC7EA000108EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFEC296C1ABC7EA000108EF4 /* ImageGeniusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGeniusTests.m; sourceTree = "<group>"; };
 		EFEC29791ABC809700108EF4 /* Blistex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blistex.jpg; sourceTree = "<group>"; };
@@ -180,8 +180,8 @@
 		EFEC294E1ABC7EA000108EF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EFEC294D1ABC7EA000108EF4 /* YeastCounter.app */,
-				EFEC29661ABC7EA000108EF4 /* YeastCounterTests.xctest */,
+				EFEC294D1ABC7EA000108EF4 /* ImageGenius.app */,
+				EFEC29661ABC7EA000108EF4 /* ImageGeniusTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,9 +254,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EFEC294C1ABC7EA000108EF4 /* YeastCounter */ = {
+		EFEC294C1ABC7EA000108EF4 /* ImageGenius */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EFEC29701ABC7EA000108EF4 /* Build configuration list for PBXNativeTarget "YeastCounter" */;
+			buildConfigurationList = EFEC29701ABC7EA000108EF4 /* Build configuration list for PBXNativeTarget "ImageGenius" */;
 			buildPhases = (
 				EFEC29491ABC7EA000108EF4 /* Sources */,
 				EFEC294A1ABC7EA000108EF4 /* Frameworks */,
@@ -266,14 +266,14 @@
 			);
 			dependencies = (
 			);
-			name = YeastCounter;
+			name = ImageGenius;
 			productName = ImageGenius;
-			productReference = EFEC294D1ABC7EA000108EF4 /* YeastCounter.app */;
+			productReference = EFEC294D1ABC7EA000108EF4 /* ImageGenius.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EFEC29651ABC7EA000108EF4 /* YeastCounterTests */ = {
+		EFEC29651ABC7EA000108EF4 /* ImageGeniusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EFEC29731ABC7EA000108EF4 /* Build configuration list for PBXNativeTarget "YeastCounterTests" */;
+			buildConfigurationList = EFEC29731ABC7EA000108EF4 /* Build configuration list for PBXNativeTarget "ImageGeniusTests" */;
 			buildPhases = (
 				EFEC29621ABC7EA000108EF4 /* Sources */,
 				EFEC29631ABC7EA000108EF4 /* Frameworks */,
@@ -284,9 +284,9 @@
 			dependencies = (
 				EFEC29681ABC7EA000108EF4 /* PBXTargetDependency */,
 			);
-			name = YeastCounterTests;
+			name = ImageGeniusTests;
 			productName = ImageGeniusTests;
-			productReference = EFEC29661ABC7EA000108EF4 /* YeastCounterTests.xctest */;
+			productReference = EFEC29661ABC7EA000108EF4 /* ImageGeniusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EFEC29481ABC7EA000108EF4 /* Build configuration list for PBXProject "YeastCounter" */;
+			buildConfigurationList = EFEC29481ABC7EA000108EF4 /* Build configuration list for PBXProject "ImageGenius" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -320,8 +320,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EFEC294C1ABC7EA000108EF4 /* YeastCounter */,
-				EFEC29651ABC7EA000108EF4 /* YeastCounterTests */,
+				EFEC294C1ABC7EA000108EF4 /* ImageGenius */,
+				EFEC29651ABC7EA000108EF4 /* ImageGeniusTests */,
 			);
 		};
 /* End PBXProject section */
@@ -396,7 +396,7 @@
 /* Begin PBXTargetDependency section */
 		EFEC29681ABC7EA000108EF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EFEC294C1ABC7EA000108EF4 /* YeastCounter */;
+			target = EFEC294C1ABC7EA000108EF4 /* ImageGenius */;
 			targetProxy = EFEC29671ABC7EA000108EF4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -506,7 +506,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ImageGenius/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = YeastCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
@@ -517,7 +517,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ImageGenius/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = YeastCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -535,7 +535,7 @@
 				);
 				INFOPLIST_FILE = ImageGeniusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = YeastCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageGenius.app/ImageGenius";
 			};
 			name = Debug;
@@ -550,7 +550,7 @@
 				);
 				INFOPLIST_FILE = ImageGeniusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = YeastCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageGenius.app/ImageGenius";
 			};
 			name = Release;
@@ -558,7 +558,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EFEC29481ABC7EA000108EF4 /* Build configuration list for PBXProject "YeastCounter" */ = {
+		EFEC29481ABC7EA000108EF4 /* Build configuration list for PBXProject "ImageGenius" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EFEC296E1ABC7EA000108EF4 /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EFEC29701ABC7EA000108EF4 /* Build configuration list for PBXNativeTarget "YeastCounter" */ = {
+		EFEC29701ABC7EA000108EF4 /* Build configuration list for PBXNativeTarget "ImageGenius" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EFEC29711ABC7EA000108EF4 /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EFEC29731ABC7EA000108EF4 /* Build configuration list for PBXNativeTarget "YeastCounterTests" */ = {
+		EFEC29731ABC7EA000108EF4 /* Build configuration list for PBXNativeTarget "ImageGeniusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EFEC29741ABC7EA000108EF4 /* Debug */,
