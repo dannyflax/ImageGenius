@@ -171,8 +171,8 @@
 		EFEC29441ABC7EA000108EF4 = {
 			isa = PBXGroup;
 			children = (
-				EFEC294F1ABC7EA000108EF4 /* ImageGenius */,
-				EFEC29691ABC7EA000108EF4 /* ImageGeniusTests */,
+				EFEC294F1ABC7EA000108EF4 /* YeastCounter */,
+				EFEC29691ABC7EA000108EF4 /* YeastCounterTests */,
 				EFEC294E1ABC7EA000108EF4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EFEC294F1ABC7EA000108EF4 /* ImageGenius */ = {
+		EFEC294F1ABC7EA000108EF4 /* YeastCounter */ = {
 			isa = PBXGroup;
 			children = (
 				EFA7FCA81ADDB0AD004AD0FB /* UIImage Categories */,
@@ -200,6 +200,7 @@
 				EFEC295F1ABC7EA000108EF4 /* LaunchScreen.xib */,
 				EFEC29501ABC7EA000108EF4 /* Supporting Files */,
 			);
+			name = YeastCounter;
 			path = ImageGenius;
 			sourceTree = "<group>";
 		};
@@ -212,12 +213,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EFEC29691ABC7EA000108EF4 /* ImageGeniusTests */ = {
+		EFEC29691ABC7EA000108EF4 /* YeastCounterTests */ = {
 			isa = PBXGroup;
 			children = (
 				EFEC296C1ABC7EA000108EF4 /* ImageGeniusTests.m */,
 				EFEC296A1ABC7EA000108EF4 /* Supporting Files */,
 			);
+			name = YeastCounterTests;
 			path = ImageGeniusTests;
 			sourceTree = "<group>";
 		};
@@ -524,7 +526,6 @@
 		EFEC29741ABC7EA000108EF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -536,14 +537,12 @@
 				INFOPLIST_FILE = ImageGeniusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = YeastCounterTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageGenius.app/ImageGenius";
 			};
 			name = Debug;
 		};
 		EFEC29751ABC7EA000108EF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -551,7 +550,6 @@
 				INFOPLIST_FILE = ImageGeniusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = YeastCounterTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageGenius.app/ImageGenius";
 			};
 			name = Release;
 		};
