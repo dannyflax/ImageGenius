@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF012C311ACC94A100F9A124 /* Cells_Cropped.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF012C301ACC94A100F9A124 /* Cells_Cropped.jpeg */; };
+		EF2D837C1AD1BF98007F5125 /* Yeast_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2D837B1AD1BF98007F5125 /* Yeast_9.jpg */; };
+		EF2D83821AD1C776007F5125 /* Point 1 - 21cm~01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2D837E1AD1C776007F5125 /* Point 1 - 21cm~01.jpg */; };
+		EF2D83831AD1C776007F5125 /* Point 1 - 22cm~02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2D837F1AD1C776007F5125 /* Point 1 - 22cm~02.jpg */; };
+		EF2D83841AD1C776007F5125 /* Point 1 - 23cm 2~01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2D83801AD1C776007F5125 /* Point 1 - 23cm 2~01.jpg */; };
+		EF2D83851AD1C776007F5125 /* Point 1 - 24cm~01.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2D83811AD1C776007F5125 /* Point 1 - 24cm~01.png */; };
+		EF2D83871AD1C9E7007F5125 /* Point 1 - 24cm~01-2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2D83861AD1C9E7007F5125 /* Point 1 - 24cm~01-2.png */; };
+		EF2D83891AD1CAA0007F5125 /* Point 1 - 24cm~01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2D83881AD1CAA0007F5125 /* Point 1 - 24cm~01.jpg */; };
+		EF79E4D11AD4AE1A00F3A9E5 /* Point 2 - 21cm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF79E4CD1AD4AE1A00F3A9E5 /* Point 2 - 21cm.jpg */; };
+		EF79E4D21AD4AE1A00F3A9E5 /* Point 2 - 22.5cm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF79E4CE1AD4AE1A00F3A9E5 /* Point 2 - 22.5cm.jpg */; };
+		EF79E4D31AD4AE1A00F3A9E5 /* Point 2 - 22cm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF79E4CF1AD4AE1A00F3A9E5 /* Point 2 - 22cm.jpg */; };
+		EF79E4D41AD4AE1A00F3A9E5 /* Point 2 - 23cm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF79E4D01AD4AE1A00F3A9E5 /* Point 2 - 23cm.jpg */; };
+		EFA7FCAF1ADDB0BA004AD0FB /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA7FCAA1ADDB0BA004AD0FB /* UIImage+Alpha.m */; };
+		EFA7FCB01ADDB0BA004AD0FB /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA7FCAC1ADDB0BA004AD0FB /* UIImage+Resize.m */; };
+		EFA7FCB11ADDB0BA004AD0FB /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA7FCAE1ADDB0BA004AD0FB /* UIImage+RoundedCorner.m */; };
+		EFC7359B1ACE0513005E513F /* Yeast_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFC7359A1ACE0513005E513F /* Yeast_2.jpg */; };
+		EFC7359D1ACE066C005E513F /* Yeast_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFC7359C1ACE066C005E513F /* Yeast_3.jpg */; };
+		EFC7359F1ACE189D005E513F /* Yeast_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFC7359E1ACE189D005E513F /* Yeast_4.jpg */; };
+		EFC735A11ACE1A4E005E513F /* Yeast_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFC735A01ACE1A4E005E513F /* Yeast_5.jpg */; };
+		EFC735A31ACE1C24005E513F /* Yeast_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFC735A21ACE1C24005E513F /* Yeast_6.jpg */; };
+		EFC735A51ACE1D35005E513F /* Yeast_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFC735A41ACE1D35005E513F /* Yeast_7.jpg */; };
+		EFEC29531ABC7EA000108EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEC29521ABC7EA000108EF4 /* main.m */; };
+		EFEC29561ABC7EA000108EF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEC29551ABC7EA000108EF4 /* AppDelegate.m */; };
+		EFEC29591ABC7EA000108EF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEC29581ABC7EA000108EF4 /* ViewController.m */; };
+		EFEC295C1ABC7EA000108EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEC295A1ABC7EA000108EF4 /* Main.storyboard */; };
+		EFEC295E1ABC7EA000108EF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEC295D1ABC7EA000108EF4 /* Images.xcassets */; };
+		EFEC29611ABC7EA000108EF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFEC295F1ABC7EA000108EF4 /* LaunchScreen.xib */; };
+		EFEC296D1ABC7EA000108EF4 /* ImageGeniusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEC296C1ABC7EA000108EF4 /* ImageGeniusTests.m */; };
+		EFEC297A1ABC809700108EF4 /* Blistex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFEC29791ABC809700108EF4 /* Blistex.jpg */; };
+		EFF4F9981ADB014400D582B0 /* 21cm salt 1~01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFF4F9941ADB014400D582B0 /* 21cm salt 1~01.jpg */; };
+		EFF4F9991ADB014400D582B0 /* 22cm salt 1~01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFF4F9951ADB014400D582B0 /* 22cm salt 1~01.jpg */; };
+		EFF4F99A1ADB014400D582B0 /* 23cm salt 1~01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFF4F9961ADB014400D582B0 /* 23cm salt 1~01.jpg */; };
+		EFF4F99B1ADB014400D582B0 /* 24cm salt 1~01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFF4F9971ADB014400D582B0 /* 24cm salt 1~01.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFEC29671ABC7EA000108EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFEC29451ABC7EA000108EF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFEC294C1ABC7EA000108EF4;
+			remoteInfo = ImageGenius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF012C301ACC94A100F9A124 /* Cells_Cropped.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cells_Cropped.jpeg; sourceTree = "<group>"; };
+		EF2D837B1AD1BF98007F5125 /* Yeast_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yeast_9.jpg; sourceTree = "<group>"; };
+		EF2D837E1AD1C776007F5125 /* Point 1 - 21cm~01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Point 1 - 21cm~01.jpg"; sourceTree = "<group>"; };
+		EF2D837F1AD1C776007F5125 /* Point 1 - 22cm~02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Point 1 - 22cm~02.jpg"; sourceTree = "<group>"; };
+		EF2D83801AD1C776007F5125 /* Point 1 - 23cm 2~01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Point 1 - 23cm 2~01.jpg"; sourceTree = "<group>"; };
+		EF2D83811AD1C776007F5125 /* Point 1 - 24cm~01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Point 1 - 24cm~01.png"; sourceTree = "<group>"; };
+		EF2D83861AD1C9E7007F5125 /* Point 1 - 24cm~01-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Point 1 - 24cm~01-2.png"; sourceTree = "<group>"; };
+		EF2D83881AD1CAA0007F5125 /* Point 1 - 24cm~01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Point 1 - 24cm~01.jpg"; sourceTree = "<group>"; };
+		EF79E4CD1AD4AE1A00F3A9E5 /* Point 2 - 21cm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Point 2 - 21cm.jpg"; sourceTree = "<group>"; };
+		EF79E4CE1AD4AE1A00F3A9E5 /* Point 2 - 22.5cm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Point 2 - 22.5cm.jpg"; sourceTree = "<group>"; };
+		EF79E4CF1AD4AE1A00F3A9E5 /* Point 2 - 22cm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Point 2 - 22cm.jpg"; sourceTree = "<group>"; };
+		EF79E4D01AD4AE1A00F3A9E5 /* Point 2 - 23cm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Point 2 - 23cm.jpg"; sourceTree = "<group>"; };
+		EFA7FCA91ADDB0BA004AD0FB /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		EFA7FCAA1ADDB0BA004AD0FB /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		EFA7FCAB1ADDB0BA004AD0FB /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		EFA7FCAC1ADDB0BA004AD0FB /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		EFA7FCAD1ADDB0BA004AD0FB /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		EFA7FCAE1ADDB0BA004AD0FB /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		EFC7359A1ACE0513005E513F /* Yeast_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yeast_2.jpg; sourceTree = "<group>"; };
+		EFC7359C1ACE066C005E513F /* Yeast_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yeast_3.jpg; sourceTree = "<group>"; };
+		EFC7359E1ACE189D005E513F /* Yeast_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yeast_4.jpg; sourceTree = "<group>"; };
+		EFC735A01ACE1A4E005E513F /* Yeast_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yeast_5.jpg; sourceTree = "<group>"; };
+		EFC735A21ACE1C24005E513F /* Yeast_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yeast_6.jpg; sourceTree = "<group>"; };
+		EFC735A41ACE1D35005E513F /* Yeast_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yeast_7.jpg; sourceTree = "<group>"; };
+		EFEC294D1ABC7EA000108EF4 /* YeastCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeastCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEC29511ABC7EA000108EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEC29521ABC7EA000108EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFEC29541ABC7EA000108EF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFEC29551ABC7EA000108EF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFEC29571ABC7EA000108EF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFEC29581ABC7EA000108EF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFEC295B1ABC7EA000108EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFEC295D1ABC7EA000108EF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFEC29601ABC7EA000108EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFEC29661ABC7EA000108EF4 /* YeastCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeastCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEC296B1ABC7EA000108EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEC296C1ABC7EA000108EF4 /* ImageGeniusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGeniusTests.m; sourceTree = "<group>"; };
+		EFEC29791ABC809700108EF4 /* Blistex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blistex.jpg; sourceTree = "<group>"; };
+		EFF4F9941ADB014400D582B0 /* 21cm salt 1~01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "21cm salt 1~01.jpg"; sourceTree = "<group>"; };
+		EFF4F9951ADB014400D582B0 /* 22cm salt 1~01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "22cm salt 1~01.jpg"; sourceTree = "<group>"; };
+		EFF4F9961ADB014400D582B0 /* 23cm salt 1~01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "23cm salt 1~01.jpg"; sourceTree = "<group>"; };
+		EFF4F9971ADB014400D582B0 /* 24cm salt 1~01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "24cm salt 1~01.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFEC294A1ABC7EA000108EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEC29631ABC7EA000108EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2D837D1AD1C767007F5125 /* Data_4.5.15 */ = {
+			isa = PBXGroup;
+			children = (
+				EF2D837E1AD1C776007F5125 /* Point 1 - 21cm~01.jpg */,
+				EF2D837F1AD1C776007F5125 /* Point 1 - 22cm~02.jpg */,
+				EF2D83801AD1C776007F5125 /* Point 1 - 23cm 2~01.jpg */,
+				EF2D83811AD1C776007F5125 /* Point 1 - 24cm~01.png */,
+				EF2D83861AD1C9E7007F5125 /* Point 1 - 24cm~01-2.png */,
+				EF2D83881AD1CAA0007F5125 /* Point 1 - 24cm~01.jpg */,
+			);
+			name = Data_4.5.15;
+			sourceTree = "<group>";
+		};
+		EF79E4CC1AD4ADC100F3A9E5 /* Data_4.7.15 */ = {
+			isa = PBXGroup;
+			children = (
+				EF79E4CD1AD4AE1A00F3A9E5 /* Point 2 - 21cm.jpg */,
+				EF79E4CE1AD4AE1A00F3A9E5 /* Point 2 - 22.5cm.jpg */,
+				EF79E4CF1AD4AE1A00F3A9E5 /* Point 2 - 22cm.jpg */,
+				EF79E4D01AD4AE1A00F3A9E5 /* Point 2 - 23cm.jpg */,
+			);
+			name = Data_4.7.15;
+			sourceTree = "<group>";
+		};
+		EFA7FCA81ADDB0AD004AD0FB /* UIImage Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EFA7FCA91ADDB0BA004AD0FB /* UIImage+Alpha.h */,
+				EFA7FCAA1ADDB0BA004AD0FB /* UIImage+Alpha.m */,
+				EFA7FCAB1ADDB0BA004AD0FB /* UIImage+Resize.h */,
+				EFA7FCAC1ADDB0BA004AD0FB /* UIImage+Resize.m */,
+				EFA7FCAD1ADDB0BA004AD0FB /* UIImage+RoundedCorner.h */,
+				EFA7FCAE1ADDB0BA004AD0FB /* UIImage+RoundedCorner.m */,
+			);
+			name = "UIImage Categories";
+			sourceTree = "<group>";
+		};
+		EFD74C961ADD998C00C8B5F2 /* Old Data */ = {
+			isa = PBXGroup;
+			children = (
+				EF012C301ACC94A100F9A124 /* Cells_Cropped.jpeg */,
+				EFC7359C1ACE066C005E513F /* Yeast_3.jpg */,
+				EFC7359A1ACE0513005E513F /* Yeast_2.jpg */,
+				EFC7359E1ACE189D005E513F /* Yeast_4.jpg */,
+				EFC735A01ACE1A4E005E513F /* Yeast_5.jpg */,
+				EFC735A21ACE1C24005E513F /* Yeast_6.jpg */,
+				EFC735A41ACE1D35005E513F /* Yeast_7.jpg */,
+				EF2D837B1AD1BF98007F5125 /* Yeast_9.jpg */,
+				EFEC29791ABC809700108EF4 /* Blistex.jpg */,
+			);
+			name = "Old Data";
+			sourceTree = "<group>";
+		};
+		EFEC29441ABC7EA000108EF4 = {
+			isa = PBXGroup;
+			children = (
+				EFEC294F1ABC7EA000108EF4 /* ImageGenius */,
+				EFEC29691ABC7EA000108EF4 /* ImageGeniusTests */,
+				EFEC294E1ABC7EA000108EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFEC294E1ABC7EA000108EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFEC294D1ABC7EA000108EF4 /* YeastCounter.app */,
+				EFEC29661ABC7EA000108EF4 /* YeastCounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFEC294F1ABC7EA000108EF4 /* ImageGenius */ = {
+			isa = PBXGroup;
+			children = (
+				EFA7FCA81ADDB0AD004AD0FB /* UIImage Categories */,
+				EFEC29781ABC808900108EF4 /* TestImages */,
+				EFEC29541ABC7EA000108EF4 /* AppDelegate.h */,
+				EFEC29551ABC7EA000108EF4 /* AppDelegate.m */,
+				EFEC29571ABC7EA000108EF4 /* ViewController.h */,
+				EFEC29581ABC7EA000108EF4 /* ViewController.m */,
+				EFEC295A1ABC7EA000108EF4 /* Main.storyboard */,
+				EFEC295D1ABC7EA000108EF4 /* Images.xcassets */,
+				EFEC295F1ABC7EA000108EF4 /* LaunchScreen.xib */,
+				EFEC29501ABC7EA000108EF4 /* Supporting Files */,
+			);
+			path = ImageGenius;
+			sourceTree = "<group>";
+		};
+		EFEC29501ABC7EA000108EF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFEC29511ABC7EA000108EF4 /* Info.plist */,
+				EFEC29521ABC7EA000108EF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFEC29691ABC7EA000108EF4 /* ImageGeniusTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFEC296C1ABC7EA000108EF4 /* ImageGeniusTests.m */,
+				EFEC296A1ABC7EA000108EF4 /* Supporting Files */,
+			);
+			path = ImageGeniusTests;
+			sourceTree = "<group>";
+		};
+		EFEC296A1ABC7EA000108EF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFEC296B1ABC7EA000108EF4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFEC29781ABC808900108EF4 /* TestImages */ = {
+			isa = PBXGroup;
+			children = (
+				EFD74C961ADD998C00C8B5F2 /* Old Data */,
+				EFF4F9931ADB011900D582B0 /* Data_4.11.15 */,
+				EF79E4CC1AD4ADC100F3A9E5 /* Data_4.7.15 */,
+				EF2D837D1AD1C767007F5125 /* Data_4.5.15 */,
+			);
+			name = TestImages;
+			sourceTree = "<group>";
+		};
+		EFF4F9931ADB011900D582B0 /* Data_4.11.15 */ = {
+			isa = PBXGroup;
+			children = (
+				EFF4F9941ADB014400D582B0 /* 21cm salt 1~01.jpg */,
+				EFF4F9951ADB014400D582B0 /* 22cm salt 1~01.jpg */,
+				EFF4F9961ADB014400D582B0 /* 23cm salt 1~01.jpg */,
+				EFF4F9971ADB014400D582B0 /* 24cm salt 1~01.jpg */,
+			);
+			name = Data_4.11.15;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFEC294C1ABC7EA000108EF4 /* YeastCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEC29701ABC7EA000108EF4 /* Build configuration list for PBXNativeTarget "YeastCounter" */;
+			buildPhases = (
+				EFEC29491ABC7EA000108EF4 /* Sources */,
+				EFEC294A1ABC7EA000108EF4 /* Frameworks */,
+				EFEC294B1ABC7EA000108EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeastCounter;
+			productName = ImageGenius;
+			productReference = EFEC294D1ABC7EA000108EF4 /* YeastCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFEC29651ABC7EA000108EF4 /* YeastCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEC29731ABC7EA000108EF4 /* Build configuration list for PBXNativeTarget "YeastCounterTests" */;
+			buildPhases = (
+				EFEC29621ABC7EA000108EF4 /* Sources */,
+				EFEC29631ABC7EA000108EF4 /* Frameworks */,
+				EFEC29641ABC7EA000108EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFEC29681ABC7EA000108EF4 /* PBXTargetDependency */,
+			);
+			name = YeastCounterTests;
+			productName = ImageGeniusTests;
+			productReference = EFEC29661ABC7EA000108EF4 /* YeastCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFEC29451ABC7EA000108EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Danny Flax";
+				TargetAttributes = {
+					EFEC294C1ABC7EA000108EF4 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EFEC29651ABC7EA000108EF4 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EFEC294C1ABC7EA000108EF4;
+					};
+				};
+			};
+			buildConfigurationList = EFEC29481ABC7EA000108EF4 /* Build configuration list for PBXProject "YeastCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFEC29441ABC7EA000108EF4;
+			productRefGroup = EFEC294E1ABC7EA000108EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFEC294C1ABC7EA000108EF4 /* YeastCounter */,
+				EFEC29651ABC7EA000108EF4 /* YeastCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFEC294B1ABC7EA000108EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEC295C1ABC7EA000108EF4 /* Main.storyboard in Resources */,
+				EF79E4D31AD4AE1A00F3A9E5 /* Point 2 - 22cm.jpg in Resources */,
+				EF79E4D21AD4AE1A00F3A9E5 /* Point 2 - 22.5cm.jpg in Resources */,
+				EFC735A31ACE1C24005E513F /* Yeast_6.jpg in Resources */,
+				EF2D837C1AD1BF98007F5125 /* Yeast_9.jpg in Resources */,
+				EFF4F9981ADB014400D582B0 /* 21cm salt 1~01.jpg in Resources */,
+				EF2D83851AD1C776007F5125 /* Point 1 - 24cm~01.png in Resources */,
+				EFC7359F1ACE189D005E513F /* Yeast_4.jpg in Resources */,
+				EFEC297A1ABC809700108EF4 /* Blistex.jpg in Resources */,
+				EFF4F99A1ADB014400D582B0 /* 23cm salt 1~01.jpg in Resources */,
+				EFC7359D1ACE066C005E513F /* Yeast_3.jpg in Resources */,
+				EFF4F99B1ADB014400D582B0 /* 24cm salt 1~01.jpg in Resources */,
+				EFF4F9991ADB014400D582B0 /* 22cm salt 1~01.jpg in Resources */,
+				EFEC29611ABC7EA000108EF4 /* LaunchScreen.xib in Resources */,
+				EF2D83821AD1C776007F5125 /* Point 1 - 21cm~01.jpg in Resources */,
+				EF2D83871AD1C9E7007F5125 /* Point 1 - 24cm~01-2.png in Resources */,
+				EF2D83831AD1C776007F5125 /* Point 1 - 22cm~02.jpg in Resources */,
+				EF79E4D11AD4AE1A00F3A9E5 /* Point 2 - 21cm.jpg in Resources */,
+				EFC735A51ACE1D35005E513F /* Yeast_7.jpg in Resources */,
+				EF79E4D41AD4AE1A00F3A9E5 /* Point 2 - 23cm.jpg in Resources */,
+				EF012C311ACC94A100F9A124 /* Cells_Cropped.jpeg in Resources */,
+				EFEC295E1ABC7EA000108EF4 /* Images.xcassets in Resources */,
+				EF2D83841AD1C776007F5125 /* Point 1 - 23cm 2~01.jpg in Resources */,
+				EFC7359B1ACE0513005E513F /* Yeast_2.jpg in Resources */,
+				EFC735A11ACE1A4E005E513F /* Yeast_5.jpg in Resources */,
+				EF2D83891AD1CAA0007F5125 /* Point 1 - 24cm~01.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEC29641ABC7EA000108EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFEC29491ABC7EA000108EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA7FCAF1ADDB0BA004AD0FB /* UIImage+Alpha.m in Sources */,
+				EFEC29591ABC7EA000108EF4 /* ViewController.m in Sources */,
+				EFEC29561ABC7EA000108EF4 /* AppDelegate.m in Sources */,
+				EFEC29531ABC7EA000108EF4 /* main.m in Sources */,
+				EFA7FCB11ADDB0BA004AD0FB /* UIImage+RoundedCorner.m in Sources */,
+				EFA7FCB01ADDB0BA004AD0FB /* UIImage+Resize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEC29621ABC7EA000108EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEC296D1ABC7EA000108EF4 /* ImageGeniusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFEC29681ABC7EA000108EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFEC294C1ABC7EA000108EF4 /* YeastCounter */;
+			targetProxy = EFEC29671ABC7EA000108EF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFEC295A1ABC7EA000108EF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFEC295B1ABC7EA000108EF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFEC295F1ABC7EA000108EF4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFEC29601ABC7EA000108EF4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFEC296E1ABC7EA000108EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFEC296F1ABC7EA000108EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFEC29711ABC7EA000108EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ImageGenius/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = YeastCounter;
+			};
+			name = Debug;
+		};
+		EFEC29721ABC7EA000108EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ImageGenius/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = YeastCounter;
+			};
+			name = Release;
+		};
+		EFEC29741ABC7EA000108EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageGeniusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = YeastCounterTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageGenius.app/ImageGenius";
+			};
+			name = Debug;
+		};
+		EFEC29751ABC7EA000108EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageGeniusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = YeastCounterTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageGenius.app/ImageGenius";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFEC29481ABC7EA000108EF4 /* Build configuration list for PBXProject "YeastCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEC296E1ABC7EA000108EF4 /* Debug */,
+				EFEC296F1ABC7EA000108EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEC29701ABC7EA000108EF4 /* Build configuration list for PBXNativeTarget "YeastCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEC29711ABC7EA000108EF4 /* Debug */,
+				EFEC29721ABC7EA000108EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEC29731ABC7EA000108EF4 /* Build configuration list for PBXNativeTarget "YeastCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEC29741ABC7EA000108EF4 /* Debug */,
+				EFEC29751ABC7EA000108EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFEC29451ABC7EA000108EF4 /* Project object */;
+}

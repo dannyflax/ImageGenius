@@ -27,7 +27,6 @@ typedef struct color {
     [super viewDidLoad];
     
     float viewWidth = self.view.frame.size.width;
-    float viewHeight = self.view.frame.size.height;
     
     self.view.multipleTouchEnabled = true;
     
