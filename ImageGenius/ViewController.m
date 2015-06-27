@@ -45,7 +45,7 @@ typedef struct color {
     [imgView.layer setBorderWidth:1.0];
     
     [imgView setContentMode:UIViewContentModeScaleAspectFit];
-    originalImage = [UIImage imageNamed:@"Point 2 - 23cm.jpg"];
+    originalImage = [UIImage imageNamed:@"24cm salt 1~01.jpg"];
     
     myImg = [UIImage imageWithCGImage:originalImage.CGImage];
     [self loadImgData];
